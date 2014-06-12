@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.album.app.Scale_OnlineImage">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_online"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ListView
+        android:background="@drawable/border_ui"
+        android:id="@+id/lv_comments"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <LinearLayout
+       android:layout_gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:id="@+id/txtlikes"
+            android:paddingRight="20dp"
+            />
+        <TextView
+            android:id="@+id/txtcomments"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            />
+        </LinearLayout>
+
+</FrameLayout>

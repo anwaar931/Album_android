@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Album</string>
+    <string name="title_section1">Images</string>
+    <string name="title_section2">Videos</string>
+    <string name="title_section3">Map</string>
+    <string name="title_section4">Online</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="demo_collection">My Taby</string>
+    <string name="demo_external_activity">My Taby 2</string>
+    <string name="dummy_section_text">Lolz</string>
+    <string name="desc">Album photo</string>
+    <string name="label">Image</string>
+    <string name="title_activity_show_image">ShowImage</string>
+    <string name="title_activity_scale_image">Images</string>
+    <string name="Camera">Open Camera</string>
+    <string name="admob_id">a1532002d1b818c</string>
+    <string name="Login">Login</string>
+    <string name="app_id">1435860576652630</string>
+    <string name="Feed">Feed</string>
+    <string name="logout">Logout</string>
+    <string name="post_photo">Post Photo</string>
+    <string name="action_share_fb">Facebook</string>
+    <string name="action_share_twitter">Twitter</string>
+    <string name="action_share_blutooth">via Bluetooth</string>
+    <string name="action_report">Report</string>
+    <string name="action_info">Info</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_crop">Crop</string>
+    <string name="action_use">Use as</string>
+    <string name="action_rotate_l">Rotate Left</string>
+    <string name="action_rotate_r">Rotate Right</string>
+    <string name="action_google_drive">Throw on Drive</string>
+    <string name="action_tag">Tag Friend</string>
+    <string-array name="nav_drawer_items">
+        <item >Photos</item>
+        <item >Videos</item>
+        <item >Maps</item>
+        <item >Online</item>
+        <item>Google Drive</item>
+        <item>Publish App</item>
+        <item>Google+</item>
+        <item>Settings</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_videos</item>
+        <item>@drawable/ic_maps</item>
+        <item>@drawable/ic_online</item>
+        <item>@drawable/drive</item>
+        <item>@drawable/ic_share</item>
+        <item>@drawable/google</item>
+        <item>@drawable/ic_action_settings</item>
+    </array>
+
+    <string-array name="privacy_array">
+        <item>Only Me</item>
+        <item>Friends</item>
+        <item>Public</item>
+    </string-array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="privacy">Privacy</string>
+    <string name="circles_title">Visible circles:</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+
+</resources>

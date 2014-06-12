@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Anwaar\AndroidStudioProjects\Album\libs\simpleFacebook\src\main\res" >
+            <file
+                path="C:\Users\Anwaar\AndroidStudioProjects\Album\libs\simpleFacebook\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Simple Facebook
+                </string>
+            </file>
+        </source>
+        <source path="C:\Users\Anwaar\AndroidStudioProjects\Album\libs\simpleFacebook\build\res\rs\release" />
+        <source path="C:\Users\Anwaar\AndroidStudioProjects\Album\libs\simpleFacebook\build\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Users\Anwaar\AndroidStudioProjects\Album\libs\simpleFacebook\src\release\res" />
+    </dataSet>
+
+</merger>

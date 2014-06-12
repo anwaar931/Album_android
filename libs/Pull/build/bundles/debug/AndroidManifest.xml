@@ -1,0 +1,6 @@
+<!-- From: file:/C:/Users/Anwaar/AndroidStudioProjects/Album/libs/Pull/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2110" android:versionName="2.1.1" package="com.handmark.pulltorefresh.library">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+
+    <application/>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_Edit"
+        android:title="@string/action_edit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/action_pin_image"
+        android:title="@string/action_share_fb"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_map_pin"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/Share"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_share"
+        android:title="@string/action_share">
+        <menu>
+
+            <item android:id="@+id/action_share_fb"
+                android:title="@string/action_share_fb"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_facebook"
+                android:showAsAction="never" />
+
+            <item android:id="@+id/action_share_twitter"
+                android:title="@string/action_share_twitter"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_twitter"
+                android:showAsAction="never" />
+            <item android:id="@+id/action_share_bluetooth"
+                android:title="@string/action_share_blutooth"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_blutooth"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_Crop"
+        android:title="@string/action_crop"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/action_use"
+        android:title="@string/action_use"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/action_Rotate_L"
+        android:title="@string/action_rotate_l"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/action_Rotate_R"
+        android:title="@string/action_rotate_r"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/action_google_drive"
+        android:title="@string/action_google_drive"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/action_tag"
+        android:title="@string/action_tag"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+
+</menu>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.album.app"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <permission
+        android:name="com.example.album.app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.album.app.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <!-- The following two permissions are not required to use
+         Google Maps Android API v2, but are recommended. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"
+        />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication"
+        >
+        <uses-library android:name="com.google.android.maps"/>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCCHzLYlnkHnKV2KnvZEkHI_7iZixyYEZo"/>
+
+        <meta-data android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/global_tracker" />
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.album.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.album.app.Scale_OnlineImage"
+            android:label="@string/title_activity_scale_image"
+            android:theme="@style/CustomActionBarTheme"
+            android:uiOptions="none">
+        </activity>
+        <provider
+            android:name="com.example.album.app.MyContentProvider"
+            android:multiprocess="true"
+            android:exported="true"
+            android:authorities="com.example.album.app.MyContentProvider"
+            ></provider>
+        <activity
+            android:name="com.example.album.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.album.app.ScaleImage"
+            android:label="@string/title_activity_scale_image"
+            android:theme="@style/CustomActionBarTheme"
+            android:uiOptions="none">
+        </activity>
+        <activity
+            android:name="com.example.album.app.CropImage"
+            android:label="@string/title_activity_scale_image" >
+        </activity>
+        <activity
+            android:name="com.example.album.app.PinImage"
+            android:label="Pin photo" >
+        </activity>
+        <activity
+            android:name="com.example.album.app.Publish"
+            android:label="Publish App" >
+        </activity>
+        <activity android:name="com.example.album.app.Google_plus"
+            android:label="Google Plus Integration">
+
+        </activity>
+        <activity
+            android:name="com.example.album.app.GoogleDrive"
+            android:label="Google Drive share" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>
